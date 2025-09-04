@@ -96,7 +96,7 @@ video {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 30px 30px;
+    padding: 50px 30px 30px;
 }
 
 .infor_logo {
@@ -181,6 +181,17 @@ p.last_text {
     opacity: 0.6;
     text-decoration: underline;
     color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.location > p > a img {
+    filter: invert(1);
+    position: relative;
+    top: 1px;
+    margin-left: 3px;
+    width: 14px;
+    height: 14px;
 }
 
 .button_wrap {
