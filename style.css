@@ -203,6 +203,7 @@ p.last_text {
 }
 
 .button_wrap a {
+    overflow: hidden;
     color: inherit;
     text-decoration: none;
     font-size: 0.8em;
