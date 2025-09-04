@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: #0c0c0c;
+}
+
+.logo {
+    position: absolute;
+    z-index: 2;
+    width: 40%;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1) brightness(0.7);
+    mix-blend-mode: difference;
+    max-width: 220px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 100%;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 1;
+    height: 150%;
+    object-fit: cover;
+    filter: blur(4px);
+    opacity: 0.35;
+}
+
+.root_daum_roughmap_landing {
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 320px;
+  max-height: 180px;
+  display: none;
+}
