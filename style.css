@@ -97,6 +97,7 @@ video {
     justify-content: flex-start;
     align-items: center;
     padding: 30px;
+    max-height: 720px;
 }
 
 .infor_logo {
@@ -163,22 +164,22 @@ h1 {
 }
 
 .sm_txt {
-    font-size: 0.76em;
-    opacity: 0.7;
+    font-size: 0.78em;
+    opacity: 0.9;
 }
 
 p.last_text {
     display: flex;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 0.6em;
     letter-spacing: -0.025em;
-    opacity: 0.7;
+    opacity: 0.8;
     font-style: italic;
 }
 
 .last_text span {
-    flex: 0 0 10px;
+    flex: 0 0 6px;
 }
 
 .location > p > a {
@@ -249,6 +250,7 @@ p.last_text {
 }
 
 .tab_content {
+    width: 100%;
     display: none;
 }
 
