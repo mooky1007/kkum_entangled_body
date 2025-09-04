@@ -158,8 +158,13 @@ h1 {
     width: 100%;
 }
 
-.info p span {
+.info p span:first-child {
     flex: 0 0 8px;
+}
+
+.sm_txt {
+  font-size: 0.76em;
+  opacity: 0.7;
 }
 
 p.last_text {
