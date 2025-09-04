@@ -96,8 +96,8 @@ video {
     justify-content: flex-start;
     align-items: center;
     padding: 5vw;
-    max-height: 780px;
-    min-height: 74vh;
+    max-height: 1024px;
+    min-height: 84vh;
 }
 
 .infor_logo {
