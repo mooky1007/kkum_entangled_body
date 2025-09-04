@@ -194,10 +194,9 @@ p.last_text {
 .location > p > a img {
     filter: invert(1);
     position: relative;
-    top: 1px;
     margin-left: 3px;
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
 }
 
 .button_wrap {
