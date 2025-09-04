@@ -96,7 +96,7 @@ video {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 30px;
+    padding: 5vw;
     max-height: 720px;
 }
 
@@ -251,6 +251,9 @@ p.last_text {
 
 .tab_content {
     width: 100%;
+    overflow: auto;
+    margin-bottom: 30px;
+    max-height: 50vh;
     display: none;
 }
 
