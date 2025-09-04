@@ -176,9 +176,11 @@ p.last_text {
     flex: 0 0 10px;
 }
 
-.location > p > span {
+.location > p > a {
     font-size: 0.8em;
     opacity: 0.6;
+    text-decoration: underline;
+    color: inherit;
 }
 
 .button_wrap {
@@ -189,7 +191,7 @@ p.last_text {
     width: 100%;
 }
 
-a {
+.button_wrap a {
     color: inherit;
     text-decoration: none;
     font-size: 0.8em;
@@ -199,4 +201,12 @@ a {
     align-items: center;
     background: #000;
     height: 42px;
+}
+
+.button_wrap a:first-child {
+    background: #a90e0e;
+}
+
+.button_wrap a svg {
+    width: 70px;
 }
